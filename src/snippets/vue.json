@@ -1,0 +1,37 @@
+{
+  "templateLang": {
+    "prefix": "templateLang",
+    "body": [
+      "<template lang=\"$1\">",
+      "\t<div$2>",
+      "\t\t$0",
+      "\t</div>",
+      "</template>"
+    ],
+    "description": "template element"
+  },
+  "script": {
+    "prefix": "script",
+    "body": [
+      "<script>",
+      "export default {",
+      "\tname: '$1',",
+      "\tdata() {",
+      "\t\treturn {",
+      "\t\t\t$2",
+      "\t\t}",
+      "\t},",
+      "\tmethods: {",
+      "\t\t",
+      "\t}",
+      "}",
+      "</script>"
+    ],
+    "description": "script element"
+  },
+  "styleLang": {
+    "prefix": "styleLang",
+    "body": ["<style lang=\"$1\">", "\t$0", "</style>"],
+    "description": "style element with lang attribute"
+  }
+}

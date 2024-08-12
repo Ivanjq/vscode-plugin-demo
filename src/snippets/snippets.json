@@ -1,0 +1,12 @@
+{
+  "forEach": {
+    "prefix": "fe",
+    "body": ["${1:array}.forEach(function(item) {", "\t${2:// body}", "});"],
+    "description": "Code snippet for \"forEach\""
+  },
+  "for of": {
+    "prefix": "forof",
+    "body": ["for (let v of ${1:arr}) {", "\t${2://body}", "}"],
+    "description": "for of"
+  }
+}
